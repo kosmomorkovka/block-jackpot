@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "blockjackpot",
+  "version": "${version}",
+  "name": "Block Jackpot",
+  "description": "Shop, coins, roulette and PvP fun for friends.",
+  "authors": ["Block Jackpot"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.blockjackpot.BlockJackpot"],
+    "client": ["ru.blockjackpot.BlockJackpotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
